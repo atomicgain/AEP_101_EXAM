@@ -8,7 +8,9 @@ public class FizzBuzz {
             res += "Fizz";
         if (i%5==0)
             res += "Buzz";
-        if (i%3!=0 && i%5!=0)
+        if (i%7==0)
+            res += "Whizz";
+        if (i%3!=0 && i%5!=0 && i%7!=0)
             res += String.valueOf(i);
         return res;
     }
