@@ -37,4 +37,9 @@ public class TestFizzBuzz {
         assertThat(fizzBuzz.say(7)).isEqualTo("Whizz");
     }
 
+    @Test
+    public void should_return_Buzz_when_number_is_10(){
+        assertThat(fizzBuzz.say(10)).isEqualTo("Buzz");
+    }
+
 }
