@@ -6,7 +6,9 @@ public class FizzBuzz {
 
         if (i%3==0)
             res += "Fizz";
-        else
+        if (i%5==0)
+            res += "Buzz";
+        if (i%3!=0 && i%5!=0)
             res += String.valueOf(i);
         return res;
     }
