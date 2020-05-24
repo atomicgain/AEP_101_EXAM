@@ -52,4 +52,11 @@ public class TestFizzBuzz {
         assertThat(fizzBuzz.say(15)).isEqualTo("FizzBuzz");
     }
 
+    @Test
+    public void should_return_FizzWhizz_when_number_is_21(){
+        assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
+    }
+
+
+
 }
