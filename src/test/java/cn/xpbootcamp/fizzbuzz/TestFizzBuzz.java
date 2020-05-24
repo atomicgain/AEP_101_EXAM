@@ -27,4 +27,9 @@ public class TestFizzBuzz {
         assertThat(fizzBuzz.say(5)).isEqualTo("Buzz");
     }
 
+    @Test
+    public void should_return_Fizz_when_number_is_6(){
+        assertThat(fizzBuzz.say(6)).isEqualTo("Fizz");
+    }
+
 }
